@@ -1,0 +1,86 @@
+body {
+   background-color: #f164e6; /*  background for the body */
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif; /* Font for the body */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+header {
+    background-color: #937aff; /* Dark background for header */
+    color: rgb(39, 194, 255); /* White text color for header */
+    padding: 10px 0; /* Padding around header */
+    text-align: center; /* Center text in header */
+    font-family: Protest Riot;
+    font-size: large;
+}
+
+.menu {
+    list-style: none; /* Remove bullet points from menu */
+    padding: 0; /* Remove default padding */
+}
+
+.menu li {
+    display: inline; /* Display menu items in a row */
+    margin: 0 15px; /* Margin between menu items */
+}
+
+.menu a {
+    color: rgb(75, 25, 255); /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.container {
+    padding: 20px; /* Padding around the main content */
+}
+
+h1, h2 {
+    color: #000000; /* Dark color for headings */
+    text-shadow: #ddd;
+}
+
+h2 {
+    margin-top: 40px; /* Space above section headings */
+}
+
+.name-image {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center align items */
+}
+.my-picture {
+    border: 2px solid rgb(0, 0, 0); /* White border around the image */
+    width: 210px; /* Set a fixed width to make the image square */
+    height: 270px; /* Set the height equal to the width */
+    object-fit: cover; /* Ensures the image fits the square frame and becomes circular */
+    display: block; /* Centering */
+    margin: 0 auto; /* Center the image */
+}
+
+
+.hobby-list {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-around; /* Space between items */
+    padding: 0; /* Remove default padding */
+    margin: 20px 0; /* Margin above and below hobby section */
+}
+
+.hobby-item {
+    text-align: center; /* Center text for hobby items */
+}
+
+.hobby-img {
+    border: 2px solid #ddd; /* Light border around hobby images */
+    border-radius: 10px; /* Rounded corners for hobby images */
+    width: 200px; /* Fixed width for hobby images */
+    height: 150px; /* Fixed height for hobby images */
+}
+
+.hobby-quiz {
+    margin-top: 20px; /* Space above the quiz section */
+    text-align: center; /* Center align the quiz */
+}
+
+footer {
+    text-align: center; /* Center align footer text */
+    margin-top: 20px; /* Space above footer */
+} 

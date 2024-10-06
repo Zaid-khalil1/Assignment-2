@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bevan:ital@0;1&family=Protest+Riot&family=Sriracha&family=Suez+One&display=swap" rel="stylesheet">
+    <title>About Me - Zaid Khalil</title>
+</head>
+<body>
+
+    <!-- Header section with title and navigation menu -->
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#future">Future Goals</a></li>
+                <li><a href="#projects">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- About Me section -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <div class="name-image">
+                <img src="./me.jpg" class="my-picture" alt="Profile picture of Zaid Khalil" onerror="this.onerror=null; this.src='fallback-image.jpg';">
+                <h3 class="my-name">Zaid Khalil</h3>
+                <p class="my-details">
+                    I am a computer science student, age 20, residing in Palestine. One of my favorite hobbies is photography, reading, and learning programming. 
+                    I want to develop my skills in solving programming puzzles and learning new languages.
+                </p>
+            </div>
+        </section>
+
+        <!-- Hobbies section with images and links -->
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="hobby-list">
+                <div class="hobby-item">
+                    <img src="./pho.jpg" alt="Photography Image" class="hobby-img">
+                    <p>Photography</p> 
+                    <a href="https://en.wikipedia.org/wiki/Photography" target="_blank">read more </a>
+
+                </div>
+                <div class="hobby-item">
+                    <img src="./read.jpg" alt="Reading Image" class="hobby-img">
+                    <p>Reading</p>
+                    <a href="https://en.wikipedia.org/wiki/Reading_(process)" target="_blank">read more </a>
+
+                </div>
+                <div class="hobby-item">
+                    <img src="./learn.jpg" alt="Programming Image" class="hobby-img">
+                    <p>Learning Programming</p>
+                    <a href="https://en.wikipedia.org/wiki/Computer_programming" target="_blank">read more</a>
+
+                </div>
+            </div>
+
+            <!-- Quiz section to guess favorite hobby -->
+            <div class="hobby-quiz">
+                <h4>Guess My Favorite Hobby✨</h4>
+                <form>
+                    <input type="checkbox" id="reading" name="hobby" value="Reading" >
+                    <label for="reading">Reading</label><br>
+                    <input type="checkbox" id="photography" name="hobby" value="Photography" required >
+                    <label for="photography">Photography</label><br>
+                    <input type="checkbox" id="learning-programming" name="hobby" value="Learning Programming" >
+                    <label for="learning-programming">Learning Programming</label><br><br>
+                    <input type="submit" value="Check">
+                </form>
+            </div>
+        </section>
+
+        <!-- Future goals section -->
+        <section id="future">
+            <h2>Future Goals</h2>
+            <p>
+                I aspire to become a software developer, focusing on creating user-friendly applications and solving complex problems using technology.
+            </p>
+        </section>
+
+        <!-- Previous projects section with a link -->
+        <section id="projects">
+            <h2>My Previous Projects</h2>
+            <p>You can check out one of my previous projects on my GitHub:</p>
+            <p><a href="https://github.com/Zaid-khalil1/web1/tree/main/Assignment%201"><b>Former GitHub project</b></a></p>
+        </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Zaid Khalil. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
